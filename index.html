@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The paralax template</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/w3-favicon.png"/>
+</head>
+<body>
+	<a name="home">
+<!--- Start Navigation -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--- For Navigation -->
+		
+		<div class="nav-outer">
+		<div class="nav-wrap">
+			<nav clas="navigation">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<div class='nav' nav-menu-style="yoga">
+					<ul class="nav-menu">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#reviews">Reviews</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		</div>
+<!---ADD NAVIGATION HERE-->
+	<div class="nav-clear"></div>
+<!--- End Navigation -->
+	<div class="clearfix"></div>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+<!--ADD IMAGE SLIDES HERE-->
+		<section class="slider">
+			<ul class="slider1">
+				<li><img src="img/slider-image-2.png"></li>
+				<li><img src="img/slider-image-3.png"></li>
+				<li><img src="img/slider-image-1.png"></li>
+			</ul>
+		</section>
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<a name="about">
+	<!--- Start banner wrapper -->
+<div id="banner-wrapper">
+	<h1>Welcome to our website</h1>
+	<div class="one-half">
+		<h3>Heading title section</h3>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+	</div>
+	<div class="one-half">
+		<h3>Heading title section</h3>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+	</div>
+</div>
+  <!--- end banner wrapper -->
+  <div class="clearfix"></div>
+  <!--- start paralax section -->
+  <section class="parallax-1">
+  	<div class="parallax-inner">
+  		<section class="one-third">
+  			<h3>Heading title</h3>
+  			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+  		</section>
+  		<section class="one-third">
+  			<h3>Heading title</h3>
+  			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+  		</section>
+  		<section class="one-third">
+  			<h3>Heading title</h3>
+  			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+  		</section>
+  	</div>
+  </section>
+  <!--- end paralax section -->
+<section class="left-col">
+	<h1>Heading title</h1>
+	<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae </p>
+	<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae </p>
+	<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae </p>
+</section>
+<section class="right-col">
+	<img src="img/beach-building.jpg">
+</section>
+<!--- start second paralax section -->
+<div class="clearfix"></div>
+  <section class="parallax-2">
+  	<div class="parallax-inner">
+  		<section class="one-third">
+  			<h3>Heading title</h3>
+  			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+  		</section>
+  		<section class="one-third">
+  			<h3>Heading title</h3>
+  			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+  		</section>
+  		<section class="one-third">
+  			<h3>Heading title</h3>
+  			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+  		</section>
+  	</div>
+  </section>
+  <!--- end second paralax section -->
+  <div class="clearfix"></div>
+
+  <div id="banner-wrapper">
+  	<h1>Full width heading title section</h1>
+  	<section class="one-third">
+  		<img src="img/beach-camera.png">
+  		<h3>Heading title text</h3>
+  		<p> Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendreri</p>
+  	</section>
+  	<section class="one-third">
+  		<img src="img/girl-camera.png">
+  		<h3>Heading title text</h3>
+  		<p> Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendreri</p>
+  	</section>
+  	<section class="one-third">
+  		<img src="img/girl-beach.png">
+  		<h3>Heading title text</h3>
+  		<p> Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendreri</p>
+  	</section>
+  </div>
+  <a name="contact">
+   <div class="clearfix"></div>
+  <footer>
+  	<p>&copy; HinsonFX Designs</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>
+</html>
